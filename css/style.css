@@ -1,0 +1,63 @@
+.hidden {
+  display: none;
+}
+
+html body {
+  height: 100%;
+}
+
+#main-container {
+  padding: 0px 20px;
+  max-width: 480px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#information {
+  display: flex;
+}
+
+#timenweather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+}
+ul > li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#quote {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#weather {
+  font-size: 20px;
+}
+
+input {
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
